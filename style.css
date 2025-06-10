@@ -1,0 +1,59 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+*{
+    box-sizing: border-box;
+    font-family: "Specimen", sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.title {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.paragraph {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    padding: 30px;
+    margin-top: -20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card {
+    box-shadow: 0px 0px 20px 0px rgba(10, 10, 10, .3);
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    flex-basis: 30%;
+    max-width: 300px;
+    max-height: 900px;
+    position: absolute;
+}
+
+.image, .qr, .title, .text {
+    z-index: 1;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qr {
+    border-radius: 25px;
+    padding: 1rem;
+}
